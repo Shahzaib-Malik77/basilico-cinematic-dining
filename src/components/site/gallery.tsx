@@ -4,7 +4,7 @@ const IMAGES = [
   {
     src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
     alt: "Basilico dining room in candlelight",
-    cls: "sm:col-span-2 sm:row-span-2 aspect-square",
+    cls: "sm:col-span-2 sm:row-span-2 aspect-square sm:aspect-auto",
   },
   {
     src: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
