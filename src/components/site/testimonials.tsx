@@ -31,7 +31,7 @@ export function Testimonials() {
     return () => clearInterval(t);
   }, []);
 
-  const q = QUOTES[i];
+  const q = QUOTES[i] ?? QUOTES[0]!;
 
   return (
     <section ref={ref} className="mx-auto max-w-[1280px] px-6 py-28 lg:px-10">
