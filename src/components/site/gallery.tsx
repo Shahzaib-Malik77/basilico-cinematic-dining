@@ -2,7 +2,7 @@ import { useReveal } from "@/lib/use-reveal";
 
 const IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1000&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
     alt: "Basilico dining room in candlelight",
     cls: "sm:col-span-2 sm:row-span-2 aspect-square",
   },
@@ -12,26 +12,27 @@ const IMAGES = [
     cls: "aspect-[4/5]",
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop",
-    alt: "Guests at the bar",
+    src: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=800&auto=format&fit=crop",
+    alt: "Dark plated dessert course",
     cls: "aspect-[4/5]",
   },
   {
     src: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=800&auto=format&fit=crop",
     alt: "Fresh market ingredients",
-    cls: "aspect-[4/3]",
+    cls: "aspect-[4/5]",
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=900&auto=format&fit=crop",
-    alt: "Wine cellar corridor",
-    cls: "aspect-[4/3]",
+    src: "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?q=80&w=800&auto=format&fit=crop",
+    alt: "Wine poured in the cellar",
+    cls: "aspect-[4/5]",
   },
   {
-    src: "https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=1000&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=1400&auto=format&fit=crop",
     alt: "Chef finishing a dish with herbs",
-    cls: "sm:col-span-2 aspect-[16/9]",
+    cls: "col-span-2 sm:col-span-4 aspect-[21/9]",
   },
 ];
+
 
 export function Gallery() {
   const ref = useReveal<HTMLElement>("[data-reveal]", 0.1);
