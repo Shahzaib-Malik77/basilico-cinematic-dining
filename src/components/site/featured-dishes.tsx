@@ -6,25 +6,25 @@ const DISHES = [
     name: "Charred Octopus",
     price: "€38",
     desc: "Smoked paprika, confit potato, lemon aioli.",
-    img: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=800&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Wagyu Ribeye",
     price: "€92",
     desc: "45-day aged, black garlic jus, winter truffle.",
-    img: "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=800&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Saffron Risotto",
     price: "€34",
     desc: "Carnaroli rice, aged parmesan, bone marrow.",
-    img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Coastal Sea Bass",
     price: "€46",
     desc: "Fennel, blood orange, brown butter velouté.",
-    img: "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=800&auto=format&fit=crop",
   },
 ];
 
